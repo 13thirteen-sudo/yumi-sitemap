@@ -1,5 +1,5 @@
-const fs = require("fs");
-const fetch = require("node-fetch");
+import fs from "fs";
+import fetch from "node-fetch";
 
 async function generate() {
   const res = await fetch("https://journal.yumi.co.uk/wp-json/wp/v2/posts?per_page=100&_embed");
