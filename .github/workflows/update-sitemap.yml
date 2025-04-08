@@ -29,5 +29,5 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add -f sitemap.xml
-          git commit -m "🗂️ Auto-update sitemap"
+          git commit -m "🗂️ Auto-update sitemap" || echo "No changes to commit"
           git push
